@@ -82,7 +82,7 @@ END;
 - Implement exception handling to catch the relevant exceptions and display appropriate messages.
 
 **PL/SQL query:**
-```
+```sql
 -- Enable output
 SET SERVEROUTPUT ON;
 
@@ -160,7 +160,7 @@ The program should display the employee details or an error message.
 - Implement exception handling to catch and display relevant error messages.
 
 **PL/SQL query:**
-```
+```sql
 SET SERVEROUTPUT ON;
 /
 
@@ -257,7 +257,7 @@ The program should display the employee details within the specified salary rang
 - Implement exception handling to catch the relevant exceptions.
 
 **PL/SQL query:**
-```
+```sql
 -- Enable DBMS output
 SET SERVEROUTPUT ON;
 /
@@ -333,7 +333,7 @@ The program should display employee names with their department numbers or the a
 - Implement exception handling to catch the relevant exceptions and display appropriate messages.
 
 **PL/SQL query:**
-```
+```sql
 -- Enable DBMS output
 SET SERVEROUTPUT ON;
 
@@ -407,7 +407,7 @@ The program should display employee records or the appropriate error message if 
 - Implement exception handling to handle `NO_DATA_FOUND` or other errors that may occur.
 
 **PL/SQL query:**
-```
+```sql
 BEGIN
     EXECUTE IMMEDIATE 'DROP TABLE employees';
 EXCEPTION
